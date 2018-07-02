@@ -2,10 +2,10 @@
 DynamoDB store with serverless
 
 # Endpoints
-  POST - https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes
-  GET - https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes
-  GET - https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes/{id}
-  DELETE - https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes/{id}
+  POST - `https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes`
+  GET - `https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes`
+  GET - `https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes/{id}`
+  DELETE - `https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes/{id}`
   
 # functions
   create: voicenotes-dynamodb-dev-create
