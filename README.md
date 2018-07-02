@@ -3,8 +3,12 @@ DynamoDB store with serverless
 
 # Endpoints
   POST - `https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes`
-  GET - `https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes`
+  
   GET - `https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes/{id}`
+  
+  
+  GET - `https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes`
+  
   DELETE - `https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes/{id}`
   
 # functions
