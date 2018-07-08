@@ -4,7 +4,7 @@ frameworkVersion: ">=1.1.0 <2.0.0"
 
 provider:
   name: aws
-  runtime: python2.7
+  runtime: python3.6
   environment:
     DYNAMODB_TABLE: ${self:service}-${opt:stage, self:provider.stage}
   iamRoleStatements:
@@ -34,6 +34,11 @@ functions:
           path: voicenotes
           method: get
           cors: true
+          request:
+            parameters:
+                querystrings:
+                    startDate: false
+                    endDate: false
 
   get:
     handler: voicenotes/get.get
