@@ -12,10 +12,10 @@ DynamoDB store with serverless
   DELETE - `https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes/{id}`
   
 # functions
-  create: voicenotes-dynamodb-dev-create
-  list: voicenotes-dynamodb-dev-list
-  get: voicenotes-dynamodb-dev-get
-  delete: voicenotes-dynamodb-dev-delete
+  ## create: voicenotes-dynamodb-dev-create
+  ## list: voicenotes-dynamodb-dev-list
+  ## get: voicenotes-dynamodb-dev-get
+  ## delete: voicenotes-dynamodb-dev-delete
   
 # Example
 ## To Write to VoiceNotes
