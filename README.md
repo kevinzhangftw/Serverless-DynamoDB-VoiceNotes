@@ -30,3 +30,9 @@ curl https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes/15305
 ```
 curl https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes
 ```
+
+By Date Range:
+```bash
+curl https://ghjn9h71oj.execute-api.us-east-1.amazonaws.com/dev/voicenotes?startDate=2018-07-07&endDate=2018-07-08
+
+```
